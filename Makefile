@@ -1,5 +1,5 @@
-PROJECT = projectsp
-GOAL = projetsp
+PROJECT = proc
+GOAL = proc
 CFLAGS = -Wall
 DATAFILE = /etc/hosts
 
