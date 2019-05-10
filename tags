@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAXLINE	proc.c	13;"	d	file:
+command	proc.c	/^void command(){$/;"	f
+getuid_byName	proc.c	/^uid_t getuid_byName(const char *name)$/;"	f
+handleCommands	proc.c	/^void handleCommands(const char *argv[]) {$/;"	f
+i_print	proc.c	/^void i_print(const char *argv[], char line[MAXLINE]) {$/;"	f
+l_print	proc.c	/^void l_print(const char *argv[], char line[MAXLINE]) {$/;"	f
+main	proc.c	/^int main(int argc, const char *argv[]) {$/;"	f
+p_print	proc.c	/^void p_print(const char *argv[], char line[MAXLINE]) {$/;"	f
+t_print	proc.c	/^void t_print(const char *argv[], char line[MAXLINE]){$/;"	f
+x_print	proc.c	/^void x_print(const char *argv[], char line[MAXLINE]) {$/;"	f

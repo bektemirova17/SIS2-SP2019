@@ -268,6 +268,19 @@ void command(){
 	}
 }
 
+void t_print(const char *argv[], char line[MAXLINE]){
+	if (line[1] == ' '){
+		printf("Current time is:\n");
+                time_t timec;
+		time(&timec);
+		char times[128];
+		strcpy(times, asctime(localtime(&timec)));
+		times[strlen(times) - 1] = '\0';
+		printf("%s", times);
+        }
+        }
+
+
 void handleCommands(const char *argv[]) {
 	char line[MAXLINE];
 	while (1) { 
@@ -280,6 +293,7 @@ void handleCommands(const char *argv[]) {
 			case 'i': i_print(argv, line); break;
 			case 'x': x_print(argv, line); break;
                         case 'm': command(); break;
+                        case 't': t_print(argv, line); break;
 			default: printf("Unrecognized command %s", line); 
 
 		} 
